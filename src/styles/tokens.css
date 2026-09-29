@@ -1,0 +1,22 @@
+:root{
+  /* cor */
+  --verde-900:#263229; --verde-700:#394D43; --verde-500:#5F7468;
+  --bege-200:#E8DCC5; --bege-100:#F0E8D8; --osso-50:#F6F1E7;
+  --madeira-500:#8A6446; --taupe-500:#7F6F66;
+  --marrom-900:#2B211A; --marrom-600:#5A4C41;
+  --terra-500:#B5623A; /* acento: só texto grande, linhas e foco */
+  --linha:rgba(43,33,26,.18); --linha-clara:rgba(232,220,197,.28);
+  /* tipografia */
+  --f-display:'Fraunces',Georgia,serif; --f-text:'Inter Tight',system-ui,sans-serif;
+  --t-caption:.75rem; --t-body:1rem; --t-lead:clamp(1.125rem,1.4vw,1.3rem);
+  --t-h3:clamp(1.4rem,2.2vw,1.9rem); --t-h2:clamp(2rem,4.6vw,3.9rem); --t-h1:clamp(2.7rem,6.6vw,6rem);
+  /* espaço (base 4) */
+  --s1:.25rem; --s2:.5rem; --s3:.75rem; --s4:1rem; --s6:1.5rem; --s8:2rem; --s12:3rem; --s16:4rem; --s24:6rem; --s32:8rem;
+  --section:clamp(5rem,11vw,10rem);
+  /* grid */
+  --max:1360px; --gutter:clamp(1rem,2vw,1.5rem); --margin:clamp(1.25rem,4vw,3.5rem);
+  /* forma */
+  --r0:0; --r1:2px; --r-pill:999px; --hair:1px;
+  /* movimento */
+  --ease:cubic-bezier(.23,1,.32,1); --d-fast:160ms; --d-base:320ms; --d-slow:700ms;
+}
